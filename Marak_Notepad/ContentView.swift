@@ -13,7 +13,6 @@ struct ContentView: View {
     var body: some View {
         NavigationStack {
             TaskListView()
-                .searchable(text: $searchText, prompt: "Search tasks...")
                 .navigationTitle("Marak Notepad")
                 .toolbar {
                     ToolbarItem(placement: .navigationBarLeading) {
